@@ -1,10 +1,12 @@
 import './App.css'
 import Display from './Display'
+import Position from './Position'
 
 function App() {
     return (
         <div className="App">
-            <Display />
+            {/* <Display /> */}
+            <Position />
         </div>
     )
 }
