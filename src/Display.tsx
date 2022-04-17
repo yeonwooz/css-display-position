@@ -1,7 +1,7 @@
 import React from 'react'
 import * as Types from './types'
 import './App.css'
-
+import BoldText from './utils/BoldText'
 /*
 function BoldText(text: string): ReactElement {  
   return <div>{text}</div>
@@ -9,10 +9,6 @@ function BoldText(text: string): ReactElement {
 함수표현식으로 선언하는 경우에는 반환타입이 ReactElement 로 약속되어 있다. 
 React.FC 타입을 반환타입으로 사용하기 위해 화살표함수를 사용한다.
 */
-
-const BoldText: React.FC<Types.Text> = ({ text }) => {
-    return <b>{text}</b>
-}
 
 const Display: React.FC = () => {
     return (
@@ -57,5 +53,3 @@ const styles: {
 }
 
 export default Display
-
-export { BoldText }
