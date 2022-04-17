@@ -9,8 +9,8 @@
     -   [ ] grid
 
 -   [ ] position
-    -   [ ] static
-    -   [ ] absolute
-    -   [ ] relative
-    -   [ ] fixed
-    -   [ ] sticky
+    -   [x] static
+    -   [x] absolute
+    -   [x] relative
+    -   [x] fixed
+    -   [x] sticky

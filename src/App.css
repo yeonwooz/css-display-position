@@ -90,13 +90,13 @@ body {
 .sticky {
     background-color: green;
     position: sticky;
-    top: 0px;
+    top: 700px;
     left: 130px;
 }
 
 .fixed {
     background-color: blue;
     position: fixed;
-    top: 0px;
-    left: 140px;
+    top: 700px;
+    left: 200px;
 }
