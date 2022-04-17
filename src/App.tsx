@@ -1,6 +1,5 @@
 import './App.css'
-import Display from './Display'
-import Position from './Position'
+import Position from '~/Position'
 
 function App() {
     return (
