@@ -1,7 +1,7 @@
 import React from 'react'
-import * as Types from './types'
-import './App.css'
-import BoldText from './utils/BoldText'
+import '~/App.css'
+import BoldText from '~/utils/BoldText'
+
 /*
 function BoldText(text: string): ReactElement {  
   return <div>{text}</div>
