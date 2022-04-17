@@ -4,6 +4,9 @@
     -   [x] block
     -   [x] inline
     -   [x] inline-block
+    -   [ ] flow
+    -   [ ] flex
+    -   [ ] grid
 
 -   [ ] position
     -   [ ] static

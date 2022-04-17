@@ -9,6 +9,26 @@ function BoldText(text: string): ReactElement {
 React.FC 타입을 반환타입으로 사용하기 위해 화살표함수를 사용한다.
 */
 
+const StaticBox: React.FC = () => {
+    return <div className="box static">static</div>
+}
+
+const RelativeBox: React.FC = () => {
+    return <div className="box relative">relative</div>
+}
+
+const AbsoluteBox: React.FC = () => {
+    return <div className="box absolute">absolute</div>
+}
+
+const StickyBox: React.FC = () => {
+    return <div className="box sticky">sticky</div>
+}
+
+const FixedBox: React.FC = () => {
+    return <div className="box fixed">fixed</div>
+}
+
 const Position: React.FC = () => {
     return (
         <>
@@ -24,7 +44,13 @@ const Position: React.FC = () => {
                     <span style={styles.Span}>속성이 있다.</span>
                 </p>
             </header>
-            <body></body>
+            <body className="longScroll">
+                <StaticBox />
+                <RelativeBox />
+                <StickyBox />
+                <AbsoluteBox />
+                <FixedBox />
+            </body>
         </>
     )
 }

@@ -61,3 +61,42 @@ body {
     display: none
     DOM 트리에서 사라진다 */
 }
+
+.longScroll {
+    height: 2000px;
+}
+
+.static {
+    background-color: red;
+    position: static;
+    top: 0px;
+    left: 100px;
+}
+
+.relative {
+    background-color: orange;
+    position: relative;
+    top: 0px;
+    left: 110px;
+}
+
+.absolute {
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+
+.sticky {
+    background-color: green;
+    position: sticky;
+    top: 0px;
+    left: 130px;
+}
+
+.fixed {
+    background-color: blue;
+    position: fixed;
+    top: 0px;
+    left: 140px;
+}
