@@ -1,26 +1,63 @@
+.App {
+    margin-top: 10px;
+}
+
+header {
+    margin: 10px auto;
+    background-color: #ebecf0;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+body {
+    border-top: 1px solid #ebecf0;
+}
+
 .box {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
 .div-1 {
-  background-color: red;
-  box-sizing: border-box;
+    background-color: red;
+    box-sizing: border-box;
+    display: inline;
+    /*
+    display: inline 
+    블록레벨요소에 inline 을 지정하면 내부 컨텐츠 만큼의 영역을 갖는다. 
+    내부 컨텐츠가 없다면 DOM 트리에는 존재하지만(display none 이 아니므로) 렌더되지 않는다.*/
 }
 
 .div-2 {
-  background-color: orange;
-  box-sizing: content-box;
+    background-color: orange;
+    box-sizing: content-box;
+    display: block;
+    /*  
+    display: block
+    블록레벨 요소는 기본으로 display: block 이다. 
+    정해진 너비와 높이만큼 렌더되지만 요소가 한 라인을 다 가지며, 위아래로 배치된다.
+    */
 }
 
 .p-1 {
-  background-color: yellow;
-  box-sizing: border-box;
-
+    background-color: yellow;
+    box-sizing: border-box;
+    display: inline-block;
+    /* 
+    display: inline-block 
+    요소가 인라인처럼 좌우배치되지만 너비와 높이를 지정할 수 있다.
+    내부 컨텐츠가 없더라도 지정된 너비만큼 표시된다.
+    너비와 높이가 지정되지 않는다면 inline 속성과 동일하다.*/
 }
 
 .p-2 {
-  background-color: green;
-  box-sizing: content-box;
-
+    background-color: green;
+    box-sizing: content-box;
+    display: none;
+    /* 
+    display: none
+    DOM 트리에서 사라진다 */
 }

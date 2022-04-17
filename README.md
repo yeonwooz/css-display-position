@@ -1,13 +1,13 @@
-- [ ] display
-    - [ ] none
-    - [ ] block
-    - [ ] inline 
-    - [ ] inline-block
+-   [ ] display
 
+    -   [x] none
+    -   [x] block
+    -   [x] inline
+    -   [x] inline-block
 
-- [ ] position
-    - [ ] static
-    - [ ] absolute
-    - [ ] relative
-    - [ ] fixed
-    - [ ] sticky
+-   [ ] position
+    -   [ ] static
+    -   [ ] absolute
+    -   [ ] relative
+    -   [ ] fixed
+    -   [ ] sticky
